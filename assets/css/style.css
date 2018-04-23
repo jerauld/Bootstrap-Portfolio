@@ -207,7 +207,7 @@ is either 768px or less. Merely for cosmetic purposes.
 
 /*
 These rules take effect when the browser's width
-is either 640 or less. Merely for cosmetic purposes.
+is either 640px or less. Merely for cosmetic purposes.
 ---------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 640px) {
