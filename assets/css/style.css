@@ -67,7 +67,7 @@ a:link, a:visited, a:active {
 }
 
 a:hover {
-  color: #4aaaa5 !important;
+  color: #4aaaa5;
 }
 
 /* Main Container Styling 
@@ -196,7 +196,7 @@ These rules take effect when the browser's width
 is either 768 or less. Merely for cosmetic purposes.
 ---------------------------------------------------------------------------------------------------- */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
 
   /* Contact Page Connect Sidebar Alignment Correction */
 
@@ -207,17 +207,27 @@ is either 768 or less. Merely for cosmetic purposes.
   /* Hamburger Nav Styling Corrections */
 
   li.nav-item:first-child {
-    padding-left: 0px;
+    padding-left: 0px; /*Corrects alignment issues of first child in hamburger mode*/
   }
 
   li.nav-item {
-    border: none !important;
-    padding: 8px 0 8px 26px !important;
+    border: none !important; /*Eliminates previous border styling on hamburger menu items*/
+    padding: 8px 0 8px 26px !important; /*Aligns hamburger items correctly.*/
   }
 
   a.nav-link {
-    border-left: 1px solid #ddd;
+    border-left: 1px solid #ddd; /*Adds unified border styling on items in hamburger menu items*/
     padding-left: 16px !important; 
   }
 
+  nav {
+    padding: 0 !important; /*Eliminates white gap on left side of nav in mobile view*/
+  }
+
+  .navbar-brand { /*All of this corrects nav bar centering in mobile view*/
+    padding: 21px 0 21px 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
