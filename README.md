@@ -4,7 +4,7 @@
 
 Bootstrap Portfolio was created for the Responsiveness homework assignment for Berkeley Coding Bootcamp to rebuild the [Basic Portfolio](https://github.com/julienshim/Basic-Portfolio) professional portfolio site using HTML, CSS and Bootstrap.
 
-## Demo
+## Demo (via GitHub Pages)
 
 https://julienshim.github.io/Bootstrap-Portfolio/
 
